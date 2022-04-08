@@ -338,7 +338,7 @@ let settingstatus = 0;
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
 
-await helga.setStatus(`❄️Base Helga | ⛈️Running Time : ${uptime}`).catch((_) => _);
+await helga.setStatus(`❄️Base Kry | ⛈️Running Time : ${uptime}`).catch((_) => _);
       settingstatus = new Date() * 1;
     }
 		idttt = []
